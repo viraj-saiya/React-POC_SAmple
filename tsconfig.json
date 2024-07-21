@@ -1,0 +1,13 @@
+{
+  "extends": "@tsconfig/react-native/tsconfig.json",
+  
+  "compilerOptions": {
+    "jsx": "react",
+    "baseUrl": ".",
+    "paths": {
+      // "*": ["./src/*"],
+      "assets/*": ["./src/assets/*"],
+    }
+    // other configs
+  },
+}
